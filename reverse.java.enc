@@ -1,0 +1,43 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Milind Ghiya
+ */
+public class Printing {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        ArrayList<String> astr = new ArrayList<String>();
+        Scanner sc = new Scanner(System.in);
+
+        String str = sc.nextLine();
+        int n = 0;
+        while (str.length() != 0) {
+            n++;
+            astr.add(str);
+            str = sc.nextLine();
+
+        }
+
+        for (int i = 0; i < n / 2; i++) {
+            System.out.println(astr.get(n / 2 + i));
+        }
+        for (int i = 0; i < n / 2; i++) {
+            System.out.println(astr.get(i));
+        }
+    }
+
+}

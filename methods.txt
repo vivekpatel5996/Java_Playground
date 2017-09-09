@@ -1,0 +1,25 @@
+Character.isDigit()
+         .isUpperCase()
+         .isLoweCase()
+         .isWhiteSpace()
+		 
+		 
+		 
+		 
+equals()
+regionMatches()
+startsWith()
+substring()
+trim()
+
+
+
+Arrays.fill()
+Arrays.binraysearch()
+
+
+
+
+
+
+http://javarevisited.blogspot.in/2012/03/difference-between-start-and-run-method.html#axzz4qgGqoQYC

@@ -1,0 +1,61 @@
+REGEXP_LIKE(columnname,regex) in oracle.
+
+To convert NULL into 0 there is function COALESEC().
+
+UPPER()
+
+LOWER()
+
+CHARINDX() to get index of character in result.
+
+RTRIM(),LTRIM() to remove whitespace
+
+length(para) to get length of para.
+
+Replace(name,'O','S') to replace char O with S.
+
+Select * from EMPLOYEE where FIRST_NAME in ('John','Roy') 
+//same as not in
+
+Like with %,_ ,  __ two char
+
+Select * from EMPLOYEE where JOINING_DATE <to_date('01/01/2013','dd/mm/yyyy')
+
+
+INNER JOIN then put condition on A.id=B.id whatever
+
+sysdate,getdate() for SQL
+
+The EXISTS operator is used to test for the existence of any record in a subquery.
+The EXISTS operator returns true if the subquery returns one or more records.
+
+To fetch comman data from two queries INTERSECT is used.
+We can apply INTERSECT command ondifferent tables.
+
+
+To achieve common data-INTERSECT.
+To filterout some data-MINUS.	
+
+CASE statement when we want result on condition.
+
+DECODE(Oracle) It is used when we want to give alias for our column DATA not column name.
+
+
+Select Last Name from employee table which contain only numbers
+Select * from EMPLOYEE where lower(LAST_NAME)=upper(LAST_NAME)
+
+we can set value of NULL using nvl() in Oracle and  IFNULL in SQL.
+
+
+The SELECT TOP clause is used to specify the number of records to return.
+The SELECT TOP clause is useful on large tables with thousands of records. Returning a large number of records can impact on performance.
+
+UNOIN can be performed on same structured data. Datatype of columns should be same and number of columns also.
+
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+The ALTER TABLE statement is also used to add and drop various constraints on an existing table
+
+A FOREIGN KEY is a key used to link two tables together.
+A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
+
+http://a4academics.com/interview-questions/53-database-and-sql/397-top-100-database-sql-interview-questions-and-answers-examples-queries

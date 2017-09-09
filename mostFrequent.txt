@@ -1,0 +1,21 @@
+import java.util.*;
+class mostFrequent
+{
+    public getMostFreq(int a[])
+	{
+	    int arr[][]=new int[][];
+		
+		
+	}
+
+}
+
+class mainClass
+{
+  public static void main(String[] args)
+  {
+     int[] arr=new int[14]{1,2,1,2,3,2,4,4,3,4,4,5,6,9};
+	 mostFrequent  mf=new mostFrequent();
+	 mf.getMostFreq(arr);
+  }
+}

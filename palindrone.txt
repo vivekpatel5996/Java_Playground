@@ -1,0 +1,11 @@
+class Palindrome
+{
+  boolean idPalindrone(String str)
+  {
+  }
+}
+
+class mainClass
+{
+
+}

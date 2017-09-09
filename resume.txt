@@ -1,0 +1,82 @@
+Personal Snippets:
+
+Name:Vivek J. Patel
+Date of Birth:05 September,1996
+Residential Address: At:Vartolkampa,Po:Dobhada,Ta:Vadali,Dist:Sabarkantha-383235,Gujarat.
+Contact No:+91 9428290425
+Email id:14ceuos083.ce2018@gmail.com
+
+
+Links:
+
+Github
+LinkedIn        
+Quora
+
+   
+Co-curricular activities:
+        Sports: Cricket
+ACADEMIC PROJECTS
+
+
+February,2016
+Project title: Book rent system
+Platform used: PHP
+Database used: MySQL
+   Tools used: NetBeans,phpMyAdmin
+  Description: This project was about to rent a book online.To maintain user and book's data in well organised manner.
+
+October,2016  
+Project title: Online examination system
+Platform used: C#
+Database used: MsSQL
+   Tools used: Visual studio
+  Description: This project was about to practice MCQ based exams and organize online MCQ based exams.
+
+February,2017  
+Project title: Online Examination system(SOAP services)
+Platform used: C#,JAVA
+Database used: MsSQL
+   Tools used: Visual studio,NetBeans,Azure
+  Description: This project is divided in three applications.Admin application is deveolped in ASP.NET. Client application is developed in JAVA.
+               WCF SOAP services is used to transfer data between two application and from Azure database.
+
+February,2017
+Project title:  Web Crawler for competitive coders
+Platform used:  JAVA EE 7,Hibernate MsSQL,JSOUP,JAX-RS,TOR,ASP.NET
+Description:    This project is aimed to gather coding problems from various sites and provide them on one platform.It is a 3-tier distributed web application.it also
+  This project is aimed to gather coding problems from various sites and provide them on one platform.It is a 3-tier distributed web application.it also
+  provides Restful web API to utilize gathered data.
+
+  June,2017
+Project title: WannaRefresh
+Platform used: Node.js,Javascript
+Cloud platform:Heroku              
+Description: It is facebook chatbot which fetch news,quote,jokes from various API by given some particular command.
+
+  
+SCHOLASTIC
+
+Undergraduate course August,2014-May,2018    
+
+ Degree: B.Tech Computer Engineering(pursuing)
+ Cumulative performance index(CPI):8.18
+
+HSC June,2012-March,2014
+
+  School:Sahajanand school of achiever,Gandhinagar 
+  Percentage:90.66%
+
+SSC June,2011-march,2012
+
+  School:Sharda high school,Vadali
+  Percentage:96%
+  
+
+IT SKILLS
+  Languages: C,JAVA,C#,PHP,Javascript,HTML/CSS,Node.js
+  Tools:NetBeans,Visual studio,Heroku,Azure,Github
+  Database:MySQl,Oracle,MsSQL
+ 
+Interested in:Web development  
+   

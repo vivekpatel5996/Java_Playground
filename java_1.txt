@@ -1,0 +1,177 @@
+JAVA is ...
+SECURED because it uses it's own runtime platform while other languages such as C,C++ uses OS as platform.
+Platform independent because once byte code is converted by compiler it can be used on any platform like LINUX,Windows etc.
+Portable because we can take byte code at anywhere with us.
+Distributed because we can create distributed application using RMI,EJB.
+Multi threaded so we can execute one or more programme on each thread.
+objects stored in Heap memory.It references stored in stack.
+
+JVM executes bytecode.
+JVM,JDK,JRE are based on platform differ to each OS.
+
+JRE is physically exists.
+It's implementation of JVM.
+It contains set of libraries.
+
+JDK is development kit.It contains tools and JRE.
+
+JIT complies the same type of byte code which has same functionality at same time.
+
+JAVA uses unicode system.
+
+Polymorphism can be achieved using overloading and overriding.
+
+Instance variable get memory at runtime not compile time.
+
+----------------CONSTRUCTOR-----------------------------
+
+constructor is one type of method.
+If there is no constructor in a class, compiler automatically creates a default constructor.
+Default constructor provides the default values to the object like 0, null etc. depending on the type.
+Constructor overloading is a technique in Java in which a class can have any number of constructors that differ in parameter lists.
+Difference between constructor and method https://www.javatpoint.com/constructor
+Constructor returns current class instance. 
+You can perform any operation in the constructor as you perform in the method.
+
+----------------GLIMPSE---------------------------------
+
+Two class with main method is possible.But it's depend on which class first execute.
+ You can have any number of main methods in a class by method overloading. But JVM calls main() method which receives string array as arguments only.
+----------------STATIC KEYWORD-------------------
+
+The static keyword in java is used for memory management mainly.
+Java static property is shared to all objects. like clg name of students,company name of all employee.
+A static method can be invoked without the need for creating an instance of a class.
+static method can access static data member and can change the value of it.
+
+------------------------------STATIC BLOCK------------------------
+static block executed at first before main method is loading.
+it is used for initialize static data member.
+Without main() method we can execute java program but not in latest versions.
+
+-----------------------------THIS-------------------------
+
+'this' keyword.
+It is used for instance variable of current class.
+To call current class method.
+To call current class constructor from ANOTHER CONSTRUCTOR.Call to this() must be the first statement in constructor.
+To pass current class object in method.e.g method(this)
+this is non static variable. 
+https://www.javatpoint.com/this-keyword Check real use of this().
+
+------------------------------INHERITANCE-------------------------------
+
+IS-A relationship.
+When we want to reuse methods from existing class then INHERITANCE.
+For overriding,It is used.
+
+Three type of INHERITANCE. Single,Multilevel,Hierarchical.
+Multiple INHERITANCE is not supported in java.
+
+-----------------------------AGGREGATION-----------------------------
+
+HAS-A relationship.
+
+------------------------------OVERLOADING------------------------
+
+It can be done in two ways.
+1) passing more parameters.
+2) changes parameter types.
+
+We can't change method return type.It must be same.
+
+Example:Adder is  method where the number of arguments may be vary.
+
+--------------------------OVERRIDING-------------------------
+
+--------------------------COVARIENT RETURN TYPE---------------
+
+In this subclass's override method has return type as a subtype of parent's return type.
+
+---------------------------SUPER------------------
+when we create subclass's object implicitly parent class object is created.
+
+super can be use to reference immediate parent class.
+super can be used to call parent class method.
+super() can be used to invoke parent class constructor.
+
+Super() and this() in child class constructor must be the first statement.
+
+--------------------INITIALIZER BLOCK--------------------------------
+
+It's use to perform operation while creating objects.
+While runtime initializer block is placed after 'super()' in constructor.
+
+--------------------FINAL KEYWORD-------------------
+
+It is used for variable.method and class.
+Once Final variable is declared we can't change the variable value.
+Once Final method is created we can't override it.
+Once class is with Final we can inherited it.
+
+We can't override final method but surely inherit it.
+We can make uninitialized final variable but then after it can be initialize in only in constructor.
+
+static uninitialized variable can be initialize only in static block.
+
+constructor can't be final because we can't inherit so it's meaningless to declare as final.
+
+
+----------------------Runtime Polymorphism-------------------
+
+single action in many ways.
+Runtime and compile time polymorphism.
+It can achieved in two ways. Overloading and overriding.
+
+Upcasting:::::Superclass reference and subclass object.
+
+We can override method not the data members for Runtime polymorphism.
+
+
+
+----------------------MultiThreading--------------------------
+
+Synchronization method,block
+Static synchronization method  is used for  synchronization on class not on object.
+Deadlock means when two threads are waiting for each other to use shared resouce.
+
+For Interthread comunication wait(),notify(),notifyAll().
+When we call wait() method on thread which has acquired lock of monitor on shared object,It goes in wait state.It should be called from Synchronization block,method.
+When other thread which has lock call notify() method then Thread scheduler takes any thread from which are in wait() states.
+NotifyAll() for all the threads.
+Give example of bank.
+
+
+Race condition occurs when two threads try to update shared data at same time.
+Tell him about check and act problem due to race condition.
+
+
+Why wait() and notify() from synchronized block?
+To resolve race condition.Give example of producer and consumer.
+http://javarevisited.blogspot.in/2011/05/wait-notify-and-notifyall-in-java.html#axzz4qhUEipoC
+
+
+When to use notify() and when to notifyAll()?
+If we know in waiting pool the threads are waiting on same condition so even  though we call notifyAll() at the end only one thread will get benifit
+of lock so why should we waste CPU cycles by calling notifyAll().
+http://javarevisited.blogspot.in/2012/10/difference-between-notify-and-notifyall-java-example.html#axzz4qhUEipoC
+
+What is deadlock?Four reason for deadlock.
+Deadlock means when two or more threads waiting for each other to release the lock on shared resource.So,at the end it takes infinite time.
+Mutual exclusion,Hold and Wait,No premption,Circular wait.
+
+How to avoid it?
+To avoid we have to give lock on shared resource in specific order.Try to avoid circular wait.
+
+What is livelock?
+Livelock means threads are constantly changing their states but no option for progress.
+Give example of narrow corrider.
+
+
+
+Hashset internally calls HashMap methods to add elements.
+
+
+To comapare multidimensional array use Arrays.deepEquals(array1,array2) method.
+For one dimensional only Arrays.equals(arr1,arr2) method.
+
